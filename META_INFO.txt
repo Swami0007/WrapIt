@@ -1,1 +1,53 @@
+1. DESCRIPTION
 
+Canteen Management System (Flutter + Firebase)
+A Flutter mobile application for managing canteen operations.
+
+Key Features:
+
+-> User authentication with Firebase Auth (sign in as User or Admin).
+
+-> View available canteens and their menus.
+
+-> Place instant orders or pre-orders for later pickup.
+
+-> Track order progress in real-time (Preparing, Prepared).
+
+-> Admin dashboard for viewing and updating orders
+
+2. PREREQUISITES
+
+          Software Requirements
+
+Component	                      Version/ Notes
+Flutter SDK	                   -    ≥ 3.0.0
+Dart SDK	                   -   Included with Flutter
+VS Code / Android Studio	   -   Any recent version
+Android SDK	                   -   Required for emulator or APK build
+Firebase Account	           -   https://firebase.google.com
+
+3. DEPENDENCIES
+
+-> firebase_core
+-> firebase_auth
+-> cloud_firestore
+-> provider
+-> intl
+
+4. FIREBASE SETUP
+
+Create a Firebase project in the Firebase Console.
+Enable Authentication → Email/Password.
+Enable Cloud Firestore.
+Add your app to Firebase:
+For Android, download google-services.json → place it in /android/app/
+For iOS, download GoogleService-Info.plist → place it in /ios/Runner/
+Run:
+Bash
+--> flutterfire configure (to auto-generate firebase_options.dart)
+
+5. RUN THE APP
+
+Bash
+--> flutter pub get (Install all dependencies)
+--> flutter run (Run the app)
