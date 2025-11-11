@@ -24,11 +24,15 @@ Firebase Account	           -   https://firebase.google.com
 
 3. DEPENDENCIES
 
-* firebase_core
-* firebase_auth
-* cloud_firestore
-* provider
-* intl
+* firebase_core: ^3.6.0
+* firebase_auth: ^5.7.0
+* cloud_firestore: ^5.6.12
+* uuid: ^4.5.2
+* flutter_riverpod: ^2.5.1
+* intl: ^0.20.2
+* url_launcher: ^6.3.0
+* qr_flutter: ^4.1.0
+* intl: ^0.19.0 
 
 4. FIREBASE SETUP
 
