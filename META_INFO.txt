@@ -35,7 +35,7 @@ Firebase Account	           -   https://firebase.google.com
 * Create a Firebase project in the Firebase Console.
 * Enable Authentication → Email/Password.
 * Enable Cloud Firestore.
-* Add your app to Firebase:
+* Add app to Firebase:
 * For Android, download google-services.json → place it in /android/app/
 * For iOS, download GoogleService-Info.plist → place it in /ios/Runner/
 * Run:
