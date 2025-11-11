@@ -5,15 +5,11 @@ A Flutter mobile application for managing canteen operations.
 
 Key Features:
 
--> User authentication with Firebase Auth (sign in as User or Admin).
-
--> View available canteens and their menus.
-
--> Place instant orders or pre-orders for later pickup.
-
--> Track order progress in real-time (Preparing, Prepared).
-
--> Admin dashboard for viewing and updating orders
+* User authentication with Firebase Auth (sign in as User or Admin).
+* View available canteens and their menus.
+* Place instant orders or pre-orders for later pickup.
+* Track order progress in real-time (Preparing, Prepared).
+* Admin dashboard for viewing and updating orders
 
 2. PREREQUISITES
 
@@ -28,21 +24,22 @@ Firebase Account	           -   https://firebase.google.com
 
 3. DEPENDENCIES
 
--> firebase_core
--> firebase_auth
--> cloud_firestore
--> provider
--> intl
+* firebase_core
+* firebase_auth
+* cloud_firestore
+* provider
+* intl
 
 4. FIREBASE SETUP
 
-Create a Firebase project in the Firebase Console.
-Enable Authentication → Email/Password.
-Enable Cloud Firestore.
-Add your app to Firebase:
-For Android, download google-services.json → place it in /android/app/
-For iOS, download GoogleService-Info.plist → place it in /ios/Runner/
-Run:
+* Create a Firebase project in the Firebase Console.
+* Enable Authentication → Email/Password.
+* Enable Cloud Firestore.
+* Add your app to Firebase:
+* For Android, download google-services.json → place it in /android/app/
+* For iOS, download GoogleService-Info.plist → place it in /ios/Runner/
+* Run:
+
 Bash
 --> flutterfire configure (to auto-generate firebase_options.dart)
 
